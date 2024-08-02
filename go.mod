@@ -6,14 +6,15 @@ require (
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/Microsoft/go-winio v0.6.2
 	github.com/Microsoft/hcsshim v0.12.5
-	github.com/awslabs/soci-snapshotter v0.6.1
-	github.com/compose-spec/compose-go/v2 v2.1.4
+	github.com/awslabs/soci-snapshotter v0.7.0
+	github.com/compose-spec/compose-go/v2 v2.1.5
 	github.com/containerd/accelerated-container-image v1.1.4
 	github.com/containerd/cgroups/v3 v3.0.3
 	github.com/containerd/console v1.0.4
-	github.com/containerd/containerd v1.7.19
+	github.com/containerd/containerd v1.7.20
 	github.com/containerd/containerd/api v1.7.19
 	github.com/containerd/continuity v0.4.3
+	github.com/containerd/errdefs v0.1.0
 	github.com/containerd/fifo v1.1.0
 	github.com/containerd/go-cni v1.1.10
 	github.com/containerd/imgcrypt v1.1.11
@@ -24,14 +25,14 @@ require (
 	github.com/containerd/stargz-snapshotter/estargz v0.15.1
 	github.com/containerd/stargz-snapshotter/ipfs v0.15.1
 	github.com/containerd/typeurl/v2 v2.2.0
-	github.com/containernetworking/cni v1.2.2
+	github.com/containernetworking/cni v1.2.3
 	github.com/containernetworking/plugins v1.5.1
 	github.com/coreos/go-iptables v0.7.0
 	github.com/coreos/go-systemd/v22 v22.5.0
-	github.com/cyphar/filepath-securejoin v0.3.0
+	github.com/cyphar/filepath-securejoin v0.3.1
 	github.com/distribution/reference v0.6.0
-	github.com/docker/cli v27.0.3+incompatible
-	github.com/docker/docker v27.0.3+incompatible
+	github.com/docker/cli v27.1.1+incompatible
+	github.com/docker/docker v27.1.1+incompatible
 	github.com/docker/go-connections v0.5.0
 	github.com/docker/go-units v0.5.0
 	github.com/fahedouch/go-logrotate v0.2.1
@@ -41,7 +42,7 @@ require (
 	github.com/klauspost/compress v1.17.9
 	github.com/mattn/go-isatty v0.0.20
 	github.com/mitchellh/mapstructure v1.5.0
-	github.com/moby/sys/mount v0.3.3
+	github.com/moby/sys/mount v0.3.4
 	github.com/moby/sys/signal v0.7.1
 	github.com/moby/term v0.5.0
 	github.com/muesli/cancelreader v0.2.2
@@ -53,7 +54,6 @@ require (
 	github.com/rootless-containers/rootlesskit/v2 v2.2.0
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
-	github.com/tidwall/gjson v1.17.1
 	github.com/vishvananda/netlink v1.2.1-beta.2
 	github.com/vishvananda/netns v0.0.4
 	github.com/yuchanns/srslog v1.1.0
@@ -74,7 +74,6 @@ require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/cilium/ebpf v0.15.0 // indirect
-	github.com/containerd/errdefs v0.1.0 // indirect
 	github.com/containerd/go-runc v1.1.0 // indirect
 	github.com/containerd/ttrpc v1.2.5 // indirect
 	github.com/containerd/typeurl v1.0.2 // indirect
@@ -104,7 +103,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/moby/docker-image-spec v1.3.1 // indirect
 	github.com/moby/locker v1.0.1 // indirect
-	github.com/moby/sys/mountinfo v0.7.1 // indirect
+	github.com/moby/sys/mountinfo v0.7.2 // indirect
 	github.com/moby/sys/sequential v0.5.0 // indirect
 	github.com/moby/sys/symlink v0.2.0 // indirect
 	github.com/moby/sys/user v0.1.0 // indirect
@@ -122,8 +121,6 @@ require (
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/stefanberger/go-pkcs11uri v0.0.0-20230803200340-78284954bff6 // indirect
-	github.com/tidwall/match v1.1.1 // indirect
-	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/tinylib/msgp v1.2.0 // indirect
 	github.com/vbatts/tar-split v0.11.5 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
